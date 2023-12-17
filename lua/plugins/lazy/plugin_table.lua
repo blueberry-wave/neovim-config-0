@@ -1,12 +1,12 @@
 -- plugin table for lazy.nvim
 
 local M = {
-	-- colorscheme
+	-- colorschemes
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
 		priority = 1000,
-		config = require("plugins.catppuccin.config")
+		config = require("plugins.catppuccin.config"),
 	},
 	-- plenary
 	{
