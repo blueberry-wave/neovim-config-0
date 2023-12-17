@@ -12,6 +12,11 @@ local M = {
 	{
 		"nvim-lua/plenary.nvim",
 		lazy = false
+	},
+	-- nvim-tree
+	{
+		"nvim-tree/nvim-tree.lua",
+		config = require("plugins.nvim-tree.config")
 	}
 }
 
