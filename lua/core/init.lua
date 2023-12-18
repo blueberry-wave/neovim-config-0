@@ -1,4 +1,4 @@
--- core entry lua module
+-- core package entry file
 
 print("loading core lua module") 
 
