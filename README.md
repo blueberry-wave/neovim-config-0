@@ -4,9 +4,15 @@ Here is a neovim config. So you can program the program you use to program while
 
 ## TODO
 
-- vim fugitive
-- telescope
+- git integration
+- search & grep
+- treesitter textobject motions
 - lsp config
+- utils
+    - visual swap
+    - marks & hops
+    - session management
+    - commenting
 - bindings
     - nvim-tree
     - window management
@@ -14,4 +20,6 @@ Here is a neovim config. So you can program the program you use to program while
     - buffer management
     - search and replace
     - research custom neovim commands for future keyboard
+    - first non-empty char binding
+    
 
