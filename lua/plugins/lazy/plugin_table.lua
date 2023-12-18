@@ -26,6 +26,10 @@ local M = {
 	{
 		"nvim-lualine/lualine.nvim",
 		config = require("plugins.lualine.config")
+	},
+	{
+		"nvim-treesitter/nvim-treesitter",
+		config = require("plugins.tree-sitter.config")
 	}
 }
 
