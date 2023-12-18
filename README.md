@@ -4,11 +4,14 @@ Here is a neovim config. So you can program the program you use to program while
 
 ## TODO
 
+- vim fugitive
+- telescope
 - lsp config
 - bindings
     - nvim-tree
     - window management
     - tab management 
+    - buffer management
     - search and replace
-    - research custom neovim commands
+    - research custom neovim commands for future keyboard
 
