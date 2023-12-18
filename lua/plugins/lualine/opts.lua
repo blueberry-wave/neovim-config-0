@@ -12,7 +12,7 @@ local M = {
 		},
 		ignore_focus = {},
 		always_divide_middle = true,
-		globalstatus = true,
+		globalstatus = false,
 		refresh = {
 			statusline = 1000,
 			tabline = 1000,
@@ -35,7 +35,12 @@ local M = {
 		lualine_y = {},
 		lualine_z = {}
 	},
-	tabline = {},
+	tabline = {
+		lualine_a = {
+			'buffers'
+		},
+		lualine_z = { 'tabs' }
+	},
 	winbar = {},
 	inactive_winbar = {},
 	extensions = {}
