@@ -27,7 +27,7 @@ local M = {
 	{
 		"rebelot/heirline.nvim",
 		config = true,
-		enabled = false
+		enabled = true
 	},
 	{
 		"nvim-lualine/lualine.nvim",
