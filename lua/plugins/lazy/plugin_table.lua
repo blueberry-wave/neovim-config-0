@@ -27,12 +27,12 @@ local M = {
 	{
 		"rebelot/heirline.nvim",
 		config = true,
-		enabled = true
+		enabled = false
 	},
 	{
 		"nvim-lualine/lualine.nvim",
 		config = require("plugins.lualine.config"),
-		enabled = false
+		enabled = true
 	},
 	-- treesitter
 	{
