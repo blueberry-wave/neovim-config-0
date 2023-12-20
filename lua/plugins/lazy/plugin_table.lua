@@ -38,6 +38,13 @@ local M = {
 	{
 		"nvim-treesitter/nvim-treesitter",
 		config = require("plugins.tree-sitter.config")
+	},
+	-- search
+	{
+		"nvim-telescope/telescope.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim"
+		}
 	}
 }
 
