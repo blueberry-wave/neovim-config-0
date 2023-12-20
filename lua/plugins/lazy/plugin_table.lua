@@ -23,9 +23,16 @@ local M = {
 		"nvim-tree/nvim-tree.lua",
 		config = require("plugins.nvim-tree.config")
 	},
+	-- statusline
+	{
+		"rebelot/heirline.nvim",
+		config = true,
+		enabled = false
+	},
 	{
 		"nvim-lualine/lualine.nvim",
-		config = require("plugins.lualine.config")
+		config = require("plugins.lualine.config"),
+		enabled = false
 	},
 	{
 		"nvim-treesitter/nvim-treesitter",

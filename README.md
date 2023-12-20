@@ -13,6 +13,8 @@ Here is a neovim config. So you can program the program you use to program while
     - marks & hops
     - session management
     - commenting
+    - linter
+    - formatter
 - bindings
     - nvim-tree
     - window management
@@ -21,5 +23,8 @@ Here is a neovim config. So you can program the program you use to program while
     - search and replace
     - research custom neovim commands for future keyboard
     - first non-empty char binding
+- custom status line with heirline
+    - component research
+    - update functions
     
 
