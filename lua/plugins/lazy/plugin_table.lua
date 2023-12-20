@@ -45,6 +45,14 @@ local M = {
 		dependencies = {
 			"nvim-lua/plenary.nvim"
 		}
+	},
+	-- colorizer
+	{
+		"norcalli/nvim-colorizer.lua",
+		config = function()
+			local plug = require("colorizer")
+			plug.setup()
+		end
 	}
 }
 
