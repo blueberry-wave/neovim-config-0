@@ -34,6 +34,7 @@ local M = {
 		config = require("plugins.lualine.config"),
 		enabled = false
 	},
+	-- treesitter
 	{
 		"nvim-treesitter/nvim-treesitter",
 		config = require("plugins.tree-sitter.config")
